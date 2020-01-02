@@ -1,0 +1,270 @@
+body {
+    background-color: #1a1a1a;
+    color: white;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+/*
+.footer{
+    background-color:#1a1a1a; 
+    height: 200px; 
+    width: 100%; 
+    margin-top: 20px;
+    padding: 2%;
+    position: relative;
+}*/
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(219, 219, 219);
+    text-decoration: none;
+}
+a:active {
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+}
+#menu ul{
+    list-style-type: none;
+    padding: 0px;
+    
+}
+#menu li{
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 0px 0px 0px;
+    border-left: 1px solid white;
+}
+#menu li:last-child{
+    border-right: 1px solid white;
+}
+
+/* VERSIONE SMARTPHONE */
+
+@media (max-width: 550px){
+    #homepage {
+        width: 100%;
+        float: left;
+        position: absolute;
+        height: 100%;
+        top: 210px;
+        left: 0px;
+        padding: 0px;
+        margin: 0px;
+        background-image: url('../img/bg-home-small.jpg');
+        background-repeat:no-repeat;
+        background-size: 100%;
+    }
+    #titolo {
+        width: calc(100vw - 24px);
+        height: calc(150px - 12px);
+        border: 1px solid white;
+        position: absolute;
+        margin: 6px 12px 6px 12px;
+        text-align: center;
+    }
+    #nometitolo {
+        font-size: 35px;
+        margin-top: calc(123px / 2 - 30px);
+        letter-spacing: 4px;
+        margin-bottom: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+    }
+    #ruolotitolo {
+        font-size: 20px;
+        margin-top: 2px;
+        letter-spacing: 2px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+    }nav{
+        height: 60px;
+        width: calc(100vw - 24px);
+        position: absolute;
+        top: 150px;
+        left: 12px;
+        vertical-align: middle;
+        font-family: 'Open Sans', sans-serif;
+        margin: 0px;
+        text-align: center;
+    }
+    #menu li{
+        
+        padding: 5px;
+        margin: auto;
+        width: 20%;
+        }
+        /*.firma{
+            visibility: hidden;
+        }
+        .footer_cellsmall{ 
+            visibility: hidden;
+        }
+        .footer_celllarge{
+            width: 175px;
+            background-color: #1a1a1a;
+            vertical-align: middle;
+            text-align: center;
+        }*/
+}
+
+
+/* VERSIONE DESKTOP */
+
+@media (min-width: 1080px){
+    #homepage {
+        width: 100%;
+        float: left;
+        position: absolute;
+        height: 100%;
+        top: 60px;
+        left: 0px;
+        padding: 0px;
+        margin: 0px;
+        background-image: url('../img/bg-home.png');
+        background-repeat:no-repeat;
+        background-size: 100%;
+    }
+    #titolo {
+        width: calc(100vw / 2 - 100vw /12);
+        height: calc(100vw * 0.176 - 100vw /24);
+        border: 1px solid white;
+        float: left;
+        margin-left: calc(100vw / 24);
+        margin-right: calc(100vw / 24);
+        margin-top: calc(100vw / 48);
+        margin-bottom: calc(100vw / 48);
+        text-align: center;
+    }
+    #nometitolo {
+        font-size: calc(100vw / 30);
+        margin-top: calc((100vw * 0.176 - 100vw /24)/2 - (100vw / 30));
+        letter-spacing: 4px;
+        margin-bottom: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+    }
+    #ruolotitolo {
+        font-size: calc(100vw / 55);
+        margin-top: 2px;
+        letter-spacing: 2px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+    }
+    nav{
+        height: 60px;
+        width: calc(100vw /2);
+        float: right;
+        letter-spacing: 4px;
+        vertical-align: middle;
+        font-family: 'Open Sans', sans-serif;
+        margin: 0px;
+        text-align: center;
+    }
+   /* .footer_cellsmall{ 
+        width: 384px; 
+        background-color: white;
+        vertical-align: middle;
+    }
+    .footer_celllarge{
+        width: 288px;
+        background-color: #1a1a1a;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .firma{
+        border: 3px solid #1a1a1a;
+        color: #1a1a1a;
+        margin: auto;
+        height: 71px;
+        width: 268.8px;
+        font-size: 30px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        line-height: 71px;
+    }*/
+
+}
+
+/* VERSIONE TABLET */
+
+@media (min-width: 551px) and (max-width: 1079px){
+    #homepage {
+        width: 100%;
+        float: left;
+        position: absolute;
+        height:  200%;
+        top: 210px;
+        left: 0px;
+        padding: 0px;
+        margin: 0px;
+        background-image: url('../img/bg-home-small.jpg');
+        background-repeat:no-repeat;
+        background-size: 100%;
+    }
+    #titolo {
+        width: 400px;
+        height: calc(700px * 0.176);
+        border: 1px solid white;
+        position: absolute;
+        left: calc((100vw / 2) - 200px);
+        margin-top: 25px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    #nometitolo {
+        font-size: 35px;
+        margin-top: calc(123px / 2 - 30px);
+        letter-spacing: 4px;
+        margin-bottom: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+    }
+    #ruolotitolo {
+        font-size: 20px;
+        margin-top: 2px;
+        letter-spacing: 2px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+    }nav{
+        height: 60px;
+        width: 100%;
+        position: absolute;
+        top: 150px;
+        letter-spacing: 4px;
+        vertical-align: middle;
+        font-family: 'Open Sans', sans-serif;
+        margin: 0px;
+        text-align: center;
+    }
+   /* .firma{
+        border: 3px solid #1a1a1a;
+        color: #1a1a1a;
+        margin: auto;
+        height: 71px;
+        width: 70%;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        line-height: 35px;
+    }
+    .footer_cellsmall{ 
+        width: 384px; 
+        background-color: white;
+        vertical-align: middle;
+    }
+    .footer_celllarge{
+        width: 288px;
+        background-color: #1a1a1a;
+        vertical-align: middle;
+        text-align: center;
+    }*/
+}
+
+
