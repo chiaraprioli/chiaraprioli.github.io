@@ -215,8 +215,8 @@ a:active {
         width: 100%;
         float: left;
         position: absolute;
-        height: 100%;
-        top: 210px;
+        height:  200%;
+        top: 230px;
         left: 0px;
         padding: 0px;
         margin: 0px;
@@ -225,44 +225,41 @@ a:active {
         background-size: 100%;
     }
     #titolo {
-        width: calc(100vw - 24px);
-        height: calc(150px - 12px);
+        width: 460px;
+        height: calc(700px * 0.176);
         border: 1px solid white;
         position: absolute;
-        margin: 6px 12px 6px 12px;
+        left: calc((100vw / 2) - 230px);
+        margin-top: 25px;
+        margin-bottom: 25px;
         text-align: center;
     }
     #nometitolo {
-        font-size: 35px;
-        margin-top: calc(123px / 2 - 30px);
+        font-size: 45px;
+        margin-top: calc(123px / 2 - 40px);
         letter-spacing: 4px;
         margin-bottom: 0px;
         font-family: 'Open Sans', sans-serif;
         font-weight: normal;
     }
     #ruolotitolo {
-        font-size: 20px;
+        font-size: 30px;
         margin-top: 2px;
         letter-spacing: 2px;
         font-family: 'Open Sans', sans-serif;
         font-weight: normal;
     }nav{
         height: 60px;
-        width: calc(100vw - 24px);
+        width: 100%;
         position: absolute;
         top: 150px;
-        left: 12px;
+        letter-spacing: 4px;
+        font-size: 30px;
         vertical-align: middle;
         font-family: 'Open Sans', sans-serif;
         margin: 0px;
         text-align: center;
     }
-    #menu li{
-        
-        padding: 5px;
-        margin: auto;
-        width: 20%;
-        }
 }
 
 
