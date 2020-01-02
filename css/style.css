@@ -100,18 +100,7 @@ a:active {
         margin: auto;
         width: 20%;
         }
-        /*.firma{
-            visibility: hidden;
-        }
-        .footer_cellsmall{ 
-            visibility: hidden;
-        }
-        .footer_celllarge{
-            width: 175px;
-            background-color: #1a1a1a;
-            vertical-align: middle;
-            text-align: center;
-        }*/
+       
 }
 
 
@@ -167,35 +156,14 @@ a:active {
         margin: 0px;
         text-align: center;
     }
-   /* .footer_cellsmall{ 
-        width: 384px; 
-        background-color: white;
-        vertical-align: middle;
-    }
-    .footer_celllarge{
-        width: 288px;
-        background-color: #1a1a1a;
-        vertical-align: middle;
-        text-align: center;
-    }
-    .firma{
-        border: 3px solid #1a1a1a;
-        color: #1a1a1a;
-        margin: auto;
-        height: 71px;
-        width: 268.8px;
-        font-size: 30px;
-        font-family: 'Open Sans', sans-serif;
-        text-align: center;
-        line-height: 71px;
-    }*/
+   
 
 }
 
 /* VERSIONE TABLET */
 
 @media (min-width: 551px) and (max-width: 1079px){
-    #homepage {
+   /* #homepage {
         width: 100%;
         float: left;
         position: absolute;
@@ -242,29 +210,59 @@ a:active {
         font-family: 'Open Sans', sans-serif;
         margin: 0px;
         text-align: center;
-    }
-   /* .firma{
-        border: 3px solid #1a1a1a;
-        color: #1a1a1a;
-        margin: auto;
-        height: 71px;
-        width: 70%;
-        font-size: 15px;
-        font-family: 'Open Sans', sans-serif;
-        text-align: center;
-        line-height: 35px;
-    }
-    .footer_cellsmall{ 
-        width: 384px; 
-        background-color: white;
-        vertical-align: middle;
-    }
-    .footer_celllarge{
-        width: 288px;
-        background-color: #1a1a1a;
-        vertical-align: middle;
-        text-align: center;
     }*/
+    #homepage {
+        width: 100%;
+        float: left;
+        position: absolute;
+        height: 100%;
+        top: 210px;
+        left: 0px;
+        padding: 0px;
+        margin: 0px;
+        background-image: url('../img/bg-home-small.jpg');
+        background-repeat:no-repeat;
+        background-size: 100%;
+    }
+    #titolo {
+        width: calc(100vw - 24px);
+        height: calc(150px - 12px);
+        border: 1px solid white;
+        position: absolute;
+        margin: 6px 12px 6px 12px;
+        text-align: center;
+    }
+    #nometitolo {
+        font-size: 35px;
+        margin-top: calc(123px / 2 - 30px);
+        letter-spacing: 4px;
+        margin-bottom: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+    }
+    #ruolotitolo {
+        font-size: 20px;
+        margin-top: 2px;
+        letter-spacing: 2px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+    }nav{
+        height: 60px;
+        width: calc(100vw - 24px);
+        position: absolute;
+        top: 150px;
+        left: 12px;
+        vertical-align: middle;
+        font-family: 'Open Sans', sans-serif;
+        margin: 0px;
+        text-align: center;
+    }
+    #menu li{
+        
+        padding: 5px;
+        margin: auto;
+        width: 20%;
+        }
 }
 
 
