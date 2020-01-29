@@ -242,7 +242,7 @@ a:active {
             text-align: justify;
         }
         #nomelavoro{
-            font-size: 70px;
+            font-size: 60px;
             text-align: center;
             margin-block-start: 0px;
             margin-block-end: 0px;
@@ -250,8 +250,8 @@ a:active {
             text-transform: uppercase;
         }
         #dettaglilavoro{
-            font-size: 50px;
-            line-height: 55px;
+            font-size: 40px;
+            line-height: 45px;
             text-align: center;
             margin-block-start: 0px;
             margin-block-end: 0px;
@@ -436,7 +436,7 @@ a:active {
         padding: 30px 0px;
         text-align: justify;
     }#nomelavoro{
-        font-size: 70px;
+        font-size: 60px;
         text-align: center;
         margin-block-start: 0px;
         margin-block-end: 0px;
@@ -444,8 +444,8 @@ a:active {
         text-transform: uppercase;
     }
     #dettaglilavoro{
-        font-size: 50px;
-        line-height: 55px;
+        font-size: 40px;
+        line-height: 45;
         text-align: center;
         margin-block-start: 0px;
         margin-block-end: 0px;
