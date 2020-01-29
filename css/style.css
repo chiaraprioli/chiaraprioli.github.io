@@ -182,7 +182,7 @@ a:active {
 
 /* VERSIONE SMARTPHONE */
 
-@media (max-width: 763px){
+@media screen and (max-width: 763px){
     #homepage {
         width: 100%;
         float: left;
@@ -262,7 +262,7 @@ a:active {
 
 /* VERSIONE DESKTOP */
 
-@media (min-width: 1080px){
+@media screen and (min-width: 1080px){
     #homepage {
         width: 100%;
         float: left;
@@ -332,7 +332,7 @@ a:active {
 
 /* VERSIONE TABLET */
 
-@media (min-width: 764px) and (max-width: 1079px){
+@media screen and (min-width: 764px) and (max-width: 1079px){
     #homepage {
         width: 100%;
         float: left;
