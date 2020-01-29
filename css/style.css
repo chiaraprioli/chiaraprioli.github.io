@@ -97,7 +97,8 @@ body {
 
 }
 #testolavoro{
-    max-width: 100%px;
+    max-width: 90%;
+    font-size: 15px;
     margin: 0px auto;
     padding: 30px 0px;
     text-align: justify;
@@ -114,6 +115,11 @@ body {
 .immagineorizzontale{
     width: 95%;
     margin-bottom: 15px;
+}
+.miniatura{
+    width: 280px;
+    margin: 20px;
+    float: left;
 }
 
 
@@ -159,6 +165,20 @@ a:active {
 #menu li:last-child{
     border-right: 1px solid white;
 }
+#menulavori ul{
+    list-style-type: none;
+    padding: 0px;
+    
+}
+#menulavori li{
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 0px 0px 0px;
+    border-left: 1px solid white;
+}
+#menulavori li:last-child{
+    border-right: 1px solid white;
+}
 
 /* VERSIONE SMARTPHONE */
 
@@ -198,7 +218,7 @@ a:active {
         letter-spacing: 2px;
         font-family: 'Open Sans', sans-serif;
         font-weight: normal;
-    }nav{
+    }#menu{
         height: 60px;
         width: calc(100vw - 24px);
         position: absolute;
@@ -214,6 +234,27 @@ a:active {
         padding: 5px;
         margin: auto;
         width: 20%;
+        }
+        #menulavori{
+            height: 60px;
+            width: calc(100vw - 24px);
+            left: 12px;
+            vertical-align: middle;
+            font-family: 'Open Sans', sans-serif;
+            margin: 0px;
+            text-align: center;
+        }
+        #menulavori li{
+            
+            padding: 5px;
+            margin: auto;
+            width: 20%;
+            }
+        #portfoliolavori{
+            clear: both;
+            width: 320px;
+            margin-right: auto;
+            margin-left: auto;
         }
        
 }
@@ -261,7 +302,17 @@ a:active {
         font-family: 'Open Sans', sans-serif;
         font-weight: normal;
     }
-    nav{
+    #menu{
+        height: 60px;
+        width: calc(100vw /2);
+        float: right;
+        letter-spacing: 4px;
+        vertical-align: middle;
+        font-family: 'Open Sans', sans-serif;
+        margin: 0px;
+        text-align: center;
+    }    
+    #menulavori{
         height: 60px;
         width: calc(100vw /2);
         float: right;
@@ -271,6 +322,12 @@ a:active {
         margin: 0px;
         text-align: center;
     }   
+    #portfoliolavori{
+        clear: both;
+        width: 960px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
 /* VERSIONE TABLET */
@@ -314,7 +371,7 @@ a:active {
         font-family: 'Open Sans', sans-serif;
         font-weight: normal;
     }
-    nav{
+    #menu{
         height: 60px;
         width: 100%;
         position: absolute;
@@ -325,5 +382,21 @@ a:active {
         font-family: 'Open Sans', sans-serif;
         margin: 0px;
         text-align: center;
+    }
+    #menulavori{
+        height: 60px;
+        width: 100%;
+        letter-spacing: 4px;
+        font-size: 30px;
+        vertical-align: middle;
+        font-family: 'Open Sans', sans-serif;
+        margin: 0px;
+        text-align: center;
+    }
+    #portfoliolavori{
+        clear: both;
+        width: 640px;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
