@@ -256,6 +256,7 @@ a:active {
             margin-right: auto;
             margin-left: auto;
         }
+        
        
 }
 
@@ -399,4 +400,10 @@ a:active {
         margin-right: auto;
         margin-left: auto;
     }
+    .miniatura{
+        width: 600px;
+        margin: 20px;
+        float: left;
+    }
+    
 }
