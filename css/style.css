@@ -94,7 +94,11 @@ body {
     width: 95%;
     margin-bottom: 15px;
 }
-
+.miniatura{
+    width: 280px;
+    margin: 20px;
+    float: left;
+}
 
 
 
@@ -254,11 +258,6 @@ a:active {
             font-weight: lighter;
         
         }
-        .miniatura{
-            width: 80%;
-            margin: 20px;
-            float: left;
-        }
 }
 
 
@@ -354,11 +353,6 @@ a:active {
         padding: 30px 0px;
         text-align: justify;
     }
-    .miniatura{
-        width: 280px;
-        margin: 20px;
-        float: left;
-    }
 }
 
 /* VERSIONE TABLET */
@@ -431,7 +425,7 @@ a:active {
         margin-left: auto;
     }
     .miniatura{
-        width: 80%;
+        width: 600px;
         margin: 20px;
         float: left;
     }
